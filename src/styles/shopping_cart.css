@@ -1,0 +1,71 @@
+.shopping-cart {
+  @apply absolute right-0 mt-2 w-72 bg-white rounded-md shadow-lg overflow-hidden z-20 transition-all duration-300 ease-in-out transform origin-top-right;
+}
+
+.shopping-cart__header {
+  @apply flex justify-between items-center px-4 py-2 bg-gray-100;
+}
+
+.shopping-cart__title {
+  @apply text-lg font-semibold;
+}
+
+.shopping-cart__close-button {
+  @apply text-gray-500 hover:text-gray-700;
+}
+
+.shopping-cart__close-icon {
+  @apply h-5 w-5;
+}
+
+.shopping-cart__empty {
+  @apply text-center py-4;
+}
+
+.shopping-cart__list {
+  @apply max-h-60 overflow-y-auto;
+}
+
+.shopping-cart__item {
+  @apply flex items-center px-4 py-3 hover:bg-gray-50;
+}
+
+.shopping-cart__item-image {
+  @apply w-10 h-14 rounded-sm;
+}
+
+.shopping-cart__item-details {
+  @apply ml-3 flex-1;
+}
+
+.shopping-cart__item-title {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.shopping-cart__item-quantity {
+  @apply text-sm text-gray-500;
+}
+
+.shopping-cart__item-remove {
+  @apply text-red-500 hover:text-red-700;
+}
+
+.shopping-cart__item-remove-icon {
+  @apply h-5 w-5;
+}
+
+.shopping-cart__footer {
+  @apply px-4 py-2 bg-gray-100;
+}
+
+.shopping-cart__total {
+  @apply flex justify-between items-center mb-2;
+}
+
+.shopping-cart__total-label {
+  @apply font-semibold;
+}
+
+.shopping-cart__checkout-button {
+  @apply block w-full bg-blue-600 text-white text-center px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300;
+}

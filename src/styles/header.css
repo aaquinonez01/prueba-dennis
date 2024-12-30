@@ -1,0 +1,43 @@
+/* Header Block */
+.header {
+    @apply bg-white shadow-md;
+  }
+  
+  .header__container {
+    @apply container mx-auto px-4 py-4 flex items-center justify-between;
+  }
+  
+  .header__logo {
+    @apply text-2xl font-bold text-blue-600;
+  }
+  
+  /* Navigation */
+  .header__nav {
+    @apply hidden md:flex space-x-4;
+  }
+  
+  .header__nav-item {
+    @apply text-gray-600 hover:text-blue-600;
+  }
+
+  .header__nav-item--active {
+    @apply text-blue-600 font-semibold;
+  }
+  
+  /* Actions */
+  .header__actions {
+    @apply flex items-center space-x-4;
+  }
+  
+  .header__action {
+    @apply relative;
+  }
+  
+  .header__icon {
+    @apply h-6 w-6 text-gray-600;
+  }
+  
+  .header__cart-badge {
+    @apply absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center;
+  }
+  

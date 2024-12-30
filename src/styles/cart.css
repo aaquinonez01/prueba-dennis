@@ -1,0 +1,49 @@
+/* Cart Item Block */
+.cart {
+  @apply bg-white p-6 rounded-lg shadow-md mb-6;
+}
+
+.cart__title {
+  @apply text-xl font-semibold mb-4;
+}
+
+.cart-item {
+  @apply flex items-center py-4 border-b last:border-b-0;
+}
+
+.cart-item__image {
+  @apply w-16 h-20 rounded-md;
+}
+
+.cart-item__details {
+  @apply ml-4 flex-grow;
+}
+
+.cart-item__title {
+  @apply font-semibold;
+}
+
+.cart-item__author {
+  @apply text-gray-600;
+}
+
+.cart-item__price {
+  @apply text-blue-600 font-semibold;
+}
+
+.cart-item__quantity {
+  @apply flex items-center  bg-gray-100 mr-4;
+}
+
+.cart-item__quantity-button {
+  @apply border px-4 hover:bg-gray-200;
+}
+
+.cart-item__quantity-display {
+  @apply border px-4 bg-white;
+}
+
+
+.cart-item__remove-icon {
+  @apply h-5 w-5 text-red-500;
+}

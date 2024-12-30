@@ -1,0 +1,196 @@
+.books-page {
+  @apply container mx-auto px-4 py-8;
+}
+
+.books-page__title {
+  @apply text-3xl font-bold mb-8;
+}
+
+.books-page__content {
+  @apply flex flex-col md:flex-row gap-8;
+}
+
+.books-page__error {
+  @apply text-center text-red-500 font-semibold py-8;
+}
+
+.book-grid {
+    @apply bg-gray-100 py-12;
+  }
+
+.book-grid__container {
+    @apply container mx-auto px-4;
+  }
+  .book-grid__title {
+    @apply text-3xl font-bold text-gray-900 mb-6 text-center;
+  }
+  .book-grid__grid {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-6;
+  }
+  
+  .book-grid__item {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+  
+  .button {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition duration-300;
+  }
+  .badge {
+    @apply inline-block px-2 py-1 text-xs font-semibold rounded;
+  }
+  
+  .badge--default {
+    @apply bg-gray-200 text-gray-800;
+  }
+  
+  .badge--secondary {
+    @apply bg-blue-100 text-blue-600;
+  }
+
+/* Contenedor principal */
+.book-detail {
+  @apply container mx-auto px-4 py-12;
+}
+
+/* Grid principal */
+.book-detail__grid {
+  @apply grid md:grid-cols-3 gap-12;
+}
+
+/* Imagen */
+.book-detail__image-container {
+  @apply flex justify-center;
+}
+
+.book-detail__image {
+  @apply w-80 h-auto rounded-lg shadow-lg;
+}
+
+/* Contenido */
+.book-detail__content {
+  @apply md:col-span-2;
+}
+
+.book-detail__title {
+  @apply text-4xl font-extrabold text-gray-900 mb-4;
+}
+
+.book-detail__author {
+  @apply text-xl text-gray-600 mb-6;
+}
+
+.book-detail__price {
+  @apply text-3xl font-bold text-blue-600 mb-6;
+}
+
+.book-detail__add-to-cart {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition duration-300 flex items-center;
+}
+
+.book-detail__description {
+  @apply text-gray-700 mt-6 mb-8 leading-relaxed;
+}
+
+/* Información adicional */
+.book-detail__meta {
+  @apply grid grid-cols-2 gap-6;
+}
+
+.book-detail__meta-title {
+  @apply font-semibold text-gray-900;
+}
+
+.book-detail__meta-content {
+  @apply text-gray-600;
+}
+
+
+/* Book List Block */
+.book-list {
+  @apply w-full md:w-3/4;
+}
+
+.book-list__grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.book-list__item {
+  @apply bg-white rounded-lg shadow-md overflow-hidden;
+}
+
+.book-list__image {
+  @apply w-full object-cover h-48;
+}
+
+.book-list__content {
+  @apply p-4;
+}
+
+.book-list__title {
+  @apply font-semibold mb-2;
+}
+
+.book-list__author {
+  @apply text-gray-600 mb-2;
+}
+
+.book-list__category {
+  @apply text-gray-500 mb-2;
+}
+
+.book-list__footer {
+  @apply flex justify-between items-center;
+}
+
+.book-list__price {
+  @apply font-bold text-blue-600;
+}
+
+.book-list__details-link {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition duration-300;
+}
+
+
+.filter-sidebar {
+  @apply w-full md:w-1/4;
+}
+
+.filter-sidebar__container {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+.filter-sidebar__header {
+  @apply flex justify-between items-center mb-4;
+}
+
+.filter-sidebar__title {
+  @apply text-xl font-semibold;
+}
+
+.filter-sidebar__toggle {
+  @apply md:hidden;
+}
+
+.filter-sidebar__icon {
+  @apply h-6 w-6;
+}
+
+.filter-sidebar__content {
+  @apply space-y-4;
+}
+
+.filter-sidebar__genre {
+  @apply space-y-2;
+}
+
+.filter-sidebar__subtitle {
+  @apply font-semibold mb-2;
+}
+
+.filter-sidebar__genre-item {
+  @apply block w-full text-left py-2 px-4 rounded hover:bg-gray-100;
+}
+
+.filter-sidebar__genre-item--active {
+  @apply bg-blue-100 text-blue-700;
+}

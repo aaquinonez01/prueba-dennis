@@ -1,0 +1,27 @@
+.landing-page {
+  @apply min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white;
+}
+
+.landing-page__content {
+  @apply text-center;
+}
+
+.landing-page__logo {
+  @apply mx-auto mb-8 w-24 h-24;
+}
+
+.landing-page__title {
+  @apply text-4xl font-bold mb-4;
+}
+
+.landing-page__subtitle {
+  @apply text-xl mb-8;
+}
+
+.landing-page__button {
+  @apply bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition duration-300;
+}
+
+.landing-page__redirect {
+  @apply mt-8 text-lg;
+}

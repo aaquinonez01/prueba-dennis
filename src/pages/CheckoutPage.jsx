@@ -14,7 +14,7 @@ export function CheckoutPage() {
   const handleCloseModal = () => {
     setShowModal(false);
     clearCart();
-    navigate("/");
+    navigate("/home");
   };
   const [showModal, setShowModal] = useState(false);
   const handleShowModal = () => setShowModal(true);

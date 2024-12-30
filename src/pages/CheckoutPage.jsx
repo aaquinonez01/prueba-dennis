@@ -8,9 +8,12 @@ import { ModalCheckout } from "../components/ModalCheckout";
 import { useNavigate } from "react-router-dom";
 
 export function CheckoutPage() {
+
+  const clearCart = useCartStore((state) => state.clearCart);
   const navigate = useNavigate();
   const handleCloseModal = () => {
     setShowModal(false);
+    clearCart();
     navigate("/");
   };
   const [showModal, setShowModal] = useState(false);

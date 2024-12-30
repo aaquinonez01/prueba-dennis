@@ -77,9 +77,9 @@ export const CheckoutForm = () => {
         </fieldset>
 
         {/* Botón de enviar */}
-        <button type="submit" className="checkout-form__submit">
+        {/* <button type="submit" className="checkout-form__submit">
           Realizar pedido
-        </button>
+        </button> */}
       </form>
     </div>
   );

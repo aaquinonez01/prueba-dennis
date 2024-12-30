@@ -27,10 +27,10 @@ export const HomePage = () => {
         <h2 className="home__catalog-title">Generos Destacados</h2>
         <div className="home__catalog-grid">
           {genres.length!==0 && (genres.slice(0,4)).map((genre) => (
-            <Link key={genre.id} to={`/category/${genre.name.toLowerCase()}`} className="home__catalog-item">
+            <div key={genre.id} className="home__catalog-item">
               <Book className="home__catalog-item-image" />
               <h3 className="home__catalog-item-title">{genre.name}</h3>
-            </Link>
+            </div>
           ))}
         </div>
       </section>

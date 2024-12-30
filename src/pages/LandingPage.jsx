@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import fondoLanding from "../assets/e0358ad4-73cc-4483-9d22-9db70910b86f.webp";
+import fondoLanding from "../assets/logo.webp";
 import { Link, useNavigate } from "react-router-dom";
 import '../styles/landing.css'
 export function LandingPage() {

@@ -27,14 +27,7 @@ export const Header = () => {
       name: "Todos los Libros",
       url: "/books"
     },
-    {
-      name: "Novedades",
-      url: "/new"
-    },
-    {
-      name: "Mis Pedidos",
-      url: "/pedidos"
-    }
+    
   ]
   return (
     

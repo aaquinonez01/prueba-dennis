@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { useBooks } from "../hooks/useBooks";
 import '../styles/books.css';
-
+import { Loading } from "./Loading";
 export const ListNewBooks = () => {
 
     const { books, loading, error } = useBooks();
 
 
     if (loading) {
-        return <p>Cargando...</p>;
+        return <Loading/>;
     }
 
     if (error) {

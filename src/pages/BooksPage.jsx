@@ -5,7 +5,7 @@ import { useBooks } from '../hooks/useBooks';
 import { useBookFilters } from '../hooks/useBooksFilter';
 import { ListBooks } from '../components/ListBooks';
 import { Loading } from '../components/Loading';
-
+import '../styles/loading.css';
 export const BooksPage = () => {
   const { books, loading: booksLoading, error: booksError } = useBooks();
   const { genres, loading: genresLoading, error: genresError } = useGenres();
